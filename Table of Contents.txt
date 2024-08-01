@@ -1,0 +1,93 @@
+"<<<<" 代表在PPT中提到,其他一些未提到因为数据太差或者不够完整.
+BERT-CRF-BiLSTM
+    BBC.py 
+        不完整
+BiLSTM
+    BiLSTM/BERT-Bilstm.py
+        不完整
+    BiLSTM/Bigru.py 
+        数据结果很差 0.3 左右 F1 score
+    BiLSTM/Bilstm pre 5.py <<<<
+        预训练5轮
+    BiLSTM/Bilstm_test.py 
+        用于测试Bilstm训练
+    BiLSTM/BiLSTM-Cluster-EarlyStop.py <<<<
+        提前聚类
+    BiLSTM/BiLSTM-EarlyStop.py <<<<
+        早停
+    BiLSTM/BiLSTM-GPU.py <<<<
+        GPU版本
+    BiLSTM/BiLSTM-PSO.py
+        增加PSO粒子群,训练时间过长 未采用
+    BiLSTM/BiLSTM.py 
+        不用了
+    BiLSTM/crf_test_data.json
+        测试集
+    BiLSTM/crf_train_data.json 
+        训练集
+    BiLSTM/testdata_generate.py 
+        测试集生成
+    BiLSTM/traindata_generate.py
+        训练集生成
+BiLSTM-CRF
+    BiLSTM-CRF/Bilstm-CRF.py <<<<
+        Bilstm-CRF 模型  
+    BiLSTM-CRF/crf_test_data.json 
+        测试集
+    BiLSTM-CRF/crf_train_data.json
+        训练集
+CRF
+    CRF/crf_test_data.json 
+        测试集
+    CRF/crf_test.py <<<<
+        CRF
+    CRF/crf_train_data.json
+        训练集
+Regex
+    包含最初的一些生成文件
+Spacy
+    Spacy/convert.py 
+        转换训练集为spacy格式
+    Spacy/Spacy_train.py <<<<
+        Spacy
+    Spacy/Spacy_transformer.py 
+        待测试
+    Spacy/train_data_spacy_format.json
+        训练集
+Transformer
+    Transformer/BERT GPU.py <<<<
+        GPU版本
+    Transformer/BERT improvement 1 pruning.py <<<<
+        剪枝
+    Transformer/BERT Improvement distillation.py 
+        蒸馏 数据差
+    Transformer/BERT Improvement quantization.py <<<<
+        量化
+    Transformer/BERT new.py <<<<
+        BERT
+    Transformer/BERT_addon.py 
+        在训练基础上增加训练
+    Transformer/BERT_test.py <<<<
+        测试BERT 模型
+    Transformer/Comparasion between models.py
+        简单对比预训练模型 
+    Transformer/crf_test_data.json 
+        测试集
+    Transformer/crf_train_data.json 
+        训练集
+    Transformer/Ernie.py
+        使用百度Ernie的训练模型的BERT 数据一般 <<<<
+总结
+    总结/BERT CPU .py 
+        BERT CPU版本
+    总结/BERT GPU .py
+        BERT GPU版本
+    总结/BERT Test .py 
+        测试BERT
+    总结/Bi-LSTM.py 
+        Bi-LSTM原始的版本
+    总结/Commands.txt
+        需要的python版本和dependencies
+
+
+
